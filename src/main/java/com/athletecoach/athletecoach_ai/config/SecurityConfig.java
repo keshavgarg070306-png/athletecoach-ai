@@ -27,6 +27,7 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:5173",
                 "https://athletecoach-ai.vercel.app",
+                "https://athletecoach-frontend.vercel.app",
                 "https://athletecoach-78fkoezje-keshavgarg070306-pngs-projects.vercel.app"
         ));
         configuration.setAllowedMethods(Arrays.asList(
